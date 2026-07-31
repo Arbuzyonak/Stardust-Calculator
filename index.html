@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stardust calculator</title>
+</head>
+<body>
+    <header>
+        <div class="header-div">
+            <h4 id="stardust">Stardust calculator</h4>
+            <nav class="nav">
+                <a href="about.html" id="about">About</a>
+                <a href="index.html" id="home">Home</a>
+            </nav>
+        </div>
+    </header>
+    
+    
+    <main class="container">
+        <h3>Stardust calculator</h3>
+        <label>Hours: <input type="number" id="hours"></label>
+        <label>Multiplier: <input type="number" id="multiplier" placeholder="Number between 5-20"></label>
+        <button id="calc" class="calc">Calculate</button>
+        <p id="result"></p>
+
+        <h3>Days to goal</h3>
+        <label>How much stardust do you have? <input type="number" id="current_stardust"></label>
+        <label>How much stardust does the item require? <input type="number" id="stardust_required"></label>
+        <label>How many hours will you commit per day? <input type="number" id="hours_per_day"></label>
+        <label>Multiplier: <input type="number" id="multiplier_2" placeholder="Number between 5-20"></label>
+        <button id="calc2" class="calc">Calculate</button>
+        <p id="result2"></p>
+    </main>
+    
+<script src="calculator.js"></script>
+</body>
+</html>
