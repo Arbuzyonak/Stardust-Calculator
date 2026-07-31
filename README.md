@@ -13,7 +13,7 @@ There are currently 2 features.
 
 2. **Days to goal.** Enter your current Stardust, your target, and how many hours you can commit per day, then the website will calculate the number of days until you hit it.
 
-## The problem that pushed me to make this project
+## The problem that pushed me to make this site
 
 It got very annoying to calculate the amount of stardust that I will get each time I finished a project so I decided to make this calculator!
 
