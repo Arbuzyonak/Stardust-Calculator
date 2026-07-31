@@ -2,6 +2,9 @@
  
 A web tool for estimating how much Stardust you'll earn in Hack Club's Stardance program and how long it'll take to afford something from the shop.
 
+## Demo
+[Try it now!](https://arbuzyonak.github.io/Stardust-Calculator/)
+
 ## How it works
 
 There are currently 2 features.
