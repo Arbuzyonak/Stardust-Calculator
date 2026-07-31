@@ -1,0 +1,77 @@
+body {
+    background-color: bisque;
+    margin: 0;
+    min-height: 100vh;
+    padding: 90px 40px 40px;
+}
+
+.header-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+
+    width: 100%;
+    max-width: 600px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background: hsla(0, 17%, 66%, 0.5);
+
+    position: fixed;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#stardust {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.nav {
+    display: flex;
+    gap: 18px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container h3 {
+    font-size: medium;
+    margin: 0;
+}
+
+.input-row {
+    display: flex;
+    gap: 20px;
+}
+
+#hours,
+#multiplier,
+#calc,
+#calc2,
+#current_stardust,
+#stardust_required,
+#hours_per_day {
+    border-radius: 5px;
+    border: 1px solid rgb(206, 184, 158);
+}
+
+.calc {
+    background-color: white;
+    padding: 6px 14px;
+    cursor: pointer;
+}
