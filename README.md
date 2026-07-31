@@ -11,7 +11,11 @@ There are currently 2 features.
 
 1. **Hours → Stardust.** Enter hours logged and your multiplier, get an estimated payout.
 
-2. **Days to goal.** Enter your current Stardust, your target, and how many hours you can commit per day, then website the number of days until you hit it.
+2. **Days to goal.** Enter your current Stardust, your target, and how many hours you can commit per day, then the website will calculate the number of days until you hit it.
+
+## The problem that pushed me to make this project
+
+It got very annoying to calculate the amount of stardust that I will get each time I finished a project so I decided to make this calculator!
 
 ## Formula
 
